@@ -1,0 +1,35 @@
+body{
+	background:#87CEEB;
+	text-align: center;
+}
+#container{
+	display: grid;
+	grid-template-areas:
+		"header header header"
+		". content nav"
+		"footer footer footer"
+}
+
+main{
+	grid-area:content;
+}
+nav{
+	grid-area:nav;
+	border: 2px solid #000;
+	border-radius: 25px;
+	width:200px;
+	height:600px;
+	background:#fff;
+	text-align:left;
+	padding: 8px;
+	margin: 5px;
+}
+nav h3{
+	padding-left:15px;
+}
+header{
+	grid-area:header;
+}
+footer{
+	grid-area:footer;
+}
