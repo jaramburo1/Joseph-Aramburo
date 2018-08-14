@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<style>
+</style>
+	<script>
+</script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<input type="range" min="1" max="1440" value="2" id="dayRange" onchange="changeBackgroundColor()" />
+			<p id="seconds"></p>
+			<p id="totalMinutes"></p>
+			<p id="currentTime"></p>
+		</header>
+		<nav id="navbar">
+			<h2>FCC Projects:</h2>
+			<a href="/projects/javaScript/caesars-cipher.js"><h3>Ceasar Cipher</h3></a>
+			<a href="/projects/javaScript/palindrome-checker.js"><h3>Palindrome Checker</h3></a>
+			<a href="/projects/javaScript/roman-numeral-converter.js"><h3>Roman Numeral Converter</h3></a>
+			<a href="/projects/javaScript/cash-register.js"><h3>Cash Register</h3></a>
+			<!--<h2>Code Fights Page:</h2>-->
+			
+			<h2>Portfolio Sites:</h2>
+			<a id="profile-link" href="https://www.freecodecamp.org/jaramburo1" target="_blank"><h3>My FCC Profile</h3></a>
+			<a href="https://app.codesignal.com/profile/joseph_a32" target="_blank"><h3>Code Fights</h3></a>
+		</nav>
+		<main>
+			<section id="welcome-section">
+				<h1>Joseph Aramburo</h1>
+			</section>
+			<section id="projects">
+				<article class="project-tile">
+					<a href="https://joseph-aramburo.azurewebsites.net/">Website</a>
+				</article>
+			</section>
+			<footer></footer>
+		</main>
+	</div>
+	<script type="text/javascript" src="timeLandscape.js"></script>
+</body>
